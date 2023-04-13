@@ -1,0 +1,65 @@
+if(true){
+
+}
+
+// bool -> true / false
+
+/*Operadores lógicos */
+// || OR 
+// && AND
+// == ===
+// != !==
+// !
+
+if(true){
+  console.log("La condición fue verdadera");}
+
+}
+
+var numero_uno = 23;
+
+var numero_uno = 30;
+
+if(numero_uno > numero_dos){
+  console.log("Entre al bloque");
+
+}
+
+if(numero_uno && true){
+console.log("Entre al bloque");
+
+}
+
+if(false && false){
+console.log("Entre al bloque");
+
+} 
+
+if(true && true){
+console.log("Entre al bloque");
+
+}
+
+if(true || false){
+console.log("Entre al bloque");
+
+}
+
+if(false || false){
+console.log("Entre al :P");
+
+}
+
+if(numero_uno === numero_dos){
+console.log("Entre al :P");
+
+}
+
+if(numero_uno !== numero_dos){
+console.log("Devuelve falso");
+}else if(false){
+
+}
+else{
+  console.log(":P");
+}
