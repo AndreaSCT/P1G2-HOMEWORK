@@ -1,0 +1,76 @@
+var contador = 0;
+while(contador < 10){
+  contador = contador + 1;
+  console.log(contador);
+}
+
+//asdasd
+
+var contador = 0;
+while(contador < 10){
+  contador++;
+  if(contador % 2 !== 0){
+    next;
+  }
+    console.log(contador);
+}
+
+//break
+//next
+
+//asdasd
+
+var contador = 0;
+while(contador < 10){
+  contador++;
+  if(contador % 2 !== 0){
+    continue;
+  }
+    console.log(contador);
+}
+
+//break
+//continue
+
+//asdasd
+
+var contador = 0;
+while(true){
+  contador++;
+
+  console.log(contador);
+  if(contador <= 10){
+    break;
+  }
+}
+
+//break
+//continue
+
+//asdasd
+
+var contador = 0;
+/*
+while(true){
+  contador++;
+
+  console.log(contador);
+  if(contador <= 10){
+    break;
+  }
+}
+*/
+
+do{
+   contador++;
+
+  console.log(contador);
+  if(contador <= 10){
+    break;
+  }
+}while(true)
+
+//break
+//continue
+
+//asdasd
