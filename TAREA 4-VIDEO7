@@ -1,0 +1,46 @@
+var number = 0.2;
+
+console.log(typeof number);
+
+var number = "hola mundo";
+
+console.log(typeof number);
+
+var number = {};
+
+//console.log(typeof number);
+
+var hola = null;
+//undefined 
+
+console.log(undefined);
+
+if(typeof hola=== "undefined"){
+  console.log("Esta variable no esta
+declarada");
+}
+
+console.log(undefined);
+
+if(typeof una_variable == "undefined"){
+  console.log("Esta variable no esta
+declarada");
+}
+
+if(hola -- null){
+  hola + "Hola"
+}
+
+
+var number = {};
+
+//console.log(typeof number);
+
+vr hola = null;
+//undefined
+
+console.log(undefined);
+
+if(hola -- null){
+  hola + "Hola"
+}
