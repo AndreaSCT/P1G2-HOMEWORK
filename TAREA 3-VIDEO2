@@ -1,0 +1,52 @@
+var edad = 19 
+edad++;
+
+var punto_flotantes = 12.5;
+
+
+/*
+Operadores aritméticos
+División = /
+Multiplicación = *
+Suma = +
+Resta = -
+Módulo = %
+*/
+
+var resultado_suma = edad + punto_flotantes;
+
+console.log(resultado_suma);
+
+var resultado_suma = edad - punto_flotantes;
+
+var resultado_suma = edad * 2;
+
+var resultado_suma = edad / 2;
+
+var resultado_suma = edad % 2;
+
+
+console.log(resultado_suma);
+
+function es_par(numero){
+ if(numero % 2 = 0){
+   return true;
+ }
+ return false;
+}
+
+console.log(Math.pow(2,2)); 
+
+console.log(Math.pow(2,3));
+
+console.log(Math.round(0,9));
+
+console.log(Math.round(0,3));
+
+console.log(Math.ceil(0,6));
+
+console.log(Math.ceil(0,1));
+
+console.log(Math.floor(0,9));
+
+console.log(Math.random(4));
