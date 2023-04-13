@@ -1,0 +1,92 @@
+¿Qué es JavaScript?
+JavaScript es un lenguaje de programación que los desarrolladores utilizan para hacer páginas web interactivas.
+
+Funciones de JavaScript:
+
+WHILE
+La función de JavaScript while, su finalidad es la de realizar bucles condicionales hasta que se cumpla cierta condición para que pare o se detenga dicho loop.
+
+while (condicionante) {
+    script a ejecutar
+}
+
+do {
+    script a ejecutar
+}
+while (condicionante);
+
+var frase = "";
+var n = 1;
+	do{ 
+	frase += "El valor de n es " + n + "<br>"; 
+	n++;
+	}while (n < 10) 
+document.writeln(frase);
+
+
+FOR
+Crea un bucle que consiste en tres expresiones opcionales, encerradas en paréntesis y separadas por puntos y comas, seguidas de una sentencia ejecutada en un bucle.
+
+for ([expresion-inicial]; [condicion]; [expresion-final])sentencia
+
+expresion-inicial
+Una expresión (incluyendo las expresiones de asignación) o la declaración de variable. Típicamente se utiliza para usarse como variable contador. Esta expresión puede
+opcionalmente declarar nuevas variables con la palabra clave var. Estas variables no son locales del bucle, es decir, están en el mismo alcance en el que está el bucle
+for. El resultado de esta expresión es descartado.
+
+condicion
+Una expresión para ser evaluada antes de cada iteración del bucle. Si esta expresión se evalúa como verdadera, se ejecuta sentencia. Esta comprobación condicional es 
+opcional. Si se omite, la condición siempre se evalúa como verdadera. Si la expresión se evalúa como falsa, la ejecución salta a la primera expresión que sigue al
+constructor de for.
+
+expresion-final
+Una expresión para ser evaluada al final de cada iteración del bucle. Esto ocurre antes de la siguiente evaluación de la condicion. Generalmente se usa para actualizar
+o incrementar la variable contador.
+
+sentencia
+Una sentencia que se ejecuta mientras la condición se evalúa como verdadera. Para ejecutar múltiples sentencias dentro del bucle, utilice una sentencia block ({ ... })
+para agrupar aquellas sentecias.
+
+for (var i = 0; i < 9; i++) {
+  n += i;
+  mifuncion(n);
+}
+
+
+IF
+Ejecuta una sentencia si una condición específicada es evaluada como verdadera. Si la condición es evaluada como falsa, otra sentencia puede ser ejecutada.
+
+if (condición) {
+   sentencia1
+} else {
+   sentencia2
+}
+
+if (cipher_char == from_char) {
+   result = result + to_char;
+   x++;
+} else
+   result = result + clear_char;
+   
+   if (x = y) {
+   /* sentencia */
+}
+
+CASE
+Una instancia case valorN es usada para ser comparada con la expresión . Si la expresión coincide con el valorN , las declaraciones dentro de la instancia case
+se ejecutan hasta que se encuentre el final de la declaración switch o hasta encontrar una interrupción break.
+
+switch (expresion) {
+  case 1:
+   //este código se ejecutará si el caso coincide con la expresión
+    break;
+  case 2:
+   //este código se ejecutará si el caso coincide con la expresión
+    break;
+  case 3:
+   //este código se ejecutará si el caso coincide con la expresión
+    break;
+  default:
+    //este código se ejecutará si ninguno de los casos coincide con la expresión
+    break;
+}
