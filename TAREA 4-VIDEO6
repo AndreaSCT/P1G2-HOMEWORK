@@ -1,0 +1,32 @@
+asd
+for(inicializacion;condicion;incremento){
+
+}
+
+for(;;){
+  break;
+}
+
+while(true){
+
+}
+
+for(var i = 0;i<10;i++){
+ console.log(i)
+}
+
+var arreglo = ["hola","mundo"];
+for(var i = 0;i<arreglo.lenght;i++){
+  if(i>=1){ break; }
+ console.log(arreglo[i]);
+}
+
+for(var i = 0;i<arreglo.lenght;i++){
+  if(i&2 !== 0){ next; }
+ console.log(arreglo[i]);
+}
+
+for(var i = 0;i<arreglo.lenght;i++){
+  if(i&2 !== 0){ continue; }
+ console.log(arreglo[i]);
+}
